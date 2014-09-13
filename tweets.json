@@ -1,0 +1,36 @@
+{"relevantTweets":[ 
+	
+	{
+		"hashtags":  "[#earthquake]",
+	    "result_type": "recent",
+	    "protected": false,
+		"created_at": "Mon Aug 25 22:25:36 +0000 2014",
+		"geo_enabled": true,
+		"geo": null,
+	    "coordinates": null,
+	    "place": null,
+	    "time_zone": "Eastern Time (US & Canada)",
+	    "is_translation_enabled": true,
+	    "id": 504031869243908096,
+	    "id_str": "504031869243908096",
+	    "profile_image_url": "http://pbs.twimg.com/profile_images/2416761735/s1si8rhaiuoss2stjayy_normal.jpeg",
+	    "text": "6 Earthquake Preparedness Tips for Business Owners: Everything you need to know to protect yourself, your empl... http://t.co/kZQmojfUwl"
+	},
+
+	{
+		"hashtags":  "[#quake]",
+	    "result_type": "recent",
+	    "protected": false,
+		"created_at": "Tues Aug 26 22:25:36 +0000 2014",
+		"geo_enabled": true,
+		"geo": null,
+	    "coordinates": null,
+	    "place": null,
+	    "time_zone": "Eastern Time (US & Canada)",
+	    "is_translation_enabled": true,
+	    "id": 504031869243908096,
+	    "id_str": "555031869243908555",
+	    "profile_image_url": "http://pbs.twimg.com/profile_images/2416761735/s1si8rhaiuoss2stjayy_normal.jpeg",
+	    "text": "555 Earthquake Preparedness Tips for Business Owners: Everything you need to know to protect yourself, your empl... http://t.co/kZQmojfUwl"
+	}
+]}
