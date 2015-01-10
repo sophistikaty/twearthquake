@@ -1,6 +1,14 @@
 $(document).ready(function(){
+	<script>
+<script type='text/javascript'> 
 
-$.getJSON('twearthquake.py', function(tweets) {
+$(document).ready(function(){
+    //since my Json statement works, I should be able to use the following argument to create a HTML row
+    $('<tr><td>Parameter 2</td><td>&nbsp</td><td>out_json</td>').appendTo('.app')   
+
+</script>
+
+$.getJSON('js/twearthquake.py', function(tweets) {
 	
 	var output="<ul>";
 	for (var i in tweets.relevantTweets) {
@@ -10,7 +18,7 @@ $.getJSON('twearthquake.py', function(tweets) {
 	document.getElementById("tweetMap").innerHTML=output;
 	});
 
-var tweets={"relevantTweets":[ 
+// var tweets={"relevantTweets":[ 
 	
 // 	{
 // 		"hashtags":  "[#earthquake]",
@@ -46,6 +54,6 @@ var tweets={"relevantTweets":[
 // 	}
 // ]};
 
-    document.getElementById("tweetMap").innerHTML=tweet.relevantTweets[0].coordinates+ " " +tweet.relevantTweets[0].place+ " " +tweet.relevantTweets[0].created_at+ " " +tweet.relevantTweets[0].id_str+ " " +tweet.relevantTweets[0].profile_image_url+ " " +tweet.relevantTweets[0].text;
+//     document.getElementById("tweetMap").innerHTML=tweet.relevantTweets[0].coordinates+ " " +tweet.relevantTweets[0].place+ " " +tweet.relevantTweets[0].created_at+ " " +tweet.relevantTweets[0].id_str+ " " +tweet.relevantTweets[0].profile_image_url+ " " +tweet.relevantTweets[0].text;
 
-}
+// }
