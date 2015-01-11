@@ -2,6 +2,7 @@ from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import time
+import os
 
 ckey = 'BGLQnkFeXuY36oxIbTOdRkL26'
 csecret = 'CZhChKAq6oJPp4w3eTpyTwoQ58y495GVq3nWb38SV6aiZlTSLb'
@@ -11,7 +12,12 @@ asecret = 'dwzLh98pr0hZKnaml5d0cbbfIMvpRMQzNDpSNrBEgLTvY'
 class listener(StreamListener):
 
 	def on_data(self,data):
-		print data
+		#print data
+		f = open('/Users/kaitlynnhendricks/Dropbox/kh current FAA files/kh personal/twearthquake/js/twearthquake-output.json', 'w')
+		f.write(data)
+		f.close()
+
+
 		#tweet = data.split(',"created_at":"')[1].split('","source')[0]
 		#.split(',"text":"')[1].split(',"source":"')[0].split(',"location":"')[1].split(',"url":"')[0]
 		#print tweet
